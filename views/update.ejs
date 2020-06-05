@@ -1,0 +1,29 @@
+<%-include("partials/header")-%>
+
+<div class="container-fluid">
+
+
+
+  <form class="update-form" action="/updates" method="post">
+    <h1>To be added in the updates</h1>
+    <div class="form-group">
+      <label>Title</label>
+      <input type="text" class="form-control" name="updateTitle">
+    </div>
+
+    <div class="form-group">
+      <label>Post</label>
+      <textarea class="form-control" name="updateBody" rows="5" cols="30"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Post</button>
+
+  </form>
+
+</div>
+
+
+
+
+
+<%-include("partials/footer")-%>

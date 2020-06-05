@@ -1,0 +1,113 @@
+<%-include("partials/header")-%>
+
+
+
+<section id="title" class=" main-img">
+  <div class="row">
+    <!-- <div class="col-lg-6 ">
+      <h1 class="big-heading">GSSS Senior Secondary School Clocktower Hoshiarpur</h1>
+    </div> -->
+    <!-- <div class="col-lg-6">
+      <img class="title-image" src="images/facebook_1589646249450.jpg" alt="school-img">
+    </div> -->
+  </div>
+
+</section>
+
+
+
+
+<!-- <section id="motto">
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="principal-img" src="images/Principal.jpg" alt="img">
+        </div>
+      <div class="col-lg-6 motto">
+        <i class="icon fas fa-user-graduate fa-4x"></i>
+        <h1 class="motto-heading">From Principal's Desk</h1>
+        <h1 class="motto-content">Service before Self</h1>
+        <h4 class="motto-content">Service before Self and prepare your young students with a philosophy to reflect and understand the ethical implications of various disciplines. We recognize that all students are uniquely talented.</h4>
+      </div>
+    </div>
+    </div>
+
+</section> -->
+<section id="updates">
+<div class="card">
+  <div class="card-header ">
+    <i class="fa-4x icon fas fa-star"></i>
+    <h1 class="motto-heading">Updates</h1>
+  </div>
+  <div class="card-body update-body">
+    <%updates.forEach(function(update){%>
+      <h3><%=update.title%></h3>
+      <p><%=update.content%></p>
+    <%})%>
+  </div>
+
+</div>
+</section>
+
+
+
+<!-- <section id="updates">
+  <i class="fa-4x icon fas fa-star"></i>
+  <h1 class="motto-heading">Updates</h1>
+
+    <%updates.forEach(function(update){%>
+      <h3><%=update.title%></h3>
+      <p><%=update.content%></p>
+    <%})%>
+
+</section> -->
+
+<!-- <hr> -->
+
+<section id="school-images" >
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item  active">
+
+        <img class="school-images" src="images/images.jpg" alt="img">
+        <em class="img-description">Health Awareness Camp</em>
+        <img class="school-images" src="images/FB_IMG_1589816770887 (1).jpg" alt="img">
+        <em class="img-description">Annual Day Celebration</em>
+      </div>
+      <div class="carousel-item ">
+        <img class="school-images" src="images/download.jpg" alt="img">
+        <em class="img-description">Annual Day</em>
+        <img class="school-images" src="images/download.jpg" alt="img">
+        <em class="img-description">Annual Day</em>
+      </div>
+      <div class="carousel-item">
+        <img class="school-images" src="images/FB_IMG_1589816770887 (1).jpg" alt="img">
+        <em class="img-description">Annual Day Celebration</em>
+        <img class="school-images" src="images/FB_IMG_1589816770887 (1).jpg" alt="img">
+        <em class="img-description">Annual Day Celebration</em>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<%-include("partials/footer")-%>
